@@ -20,10 +20,46 @@
   version = "v4.6.2"
 
 [[projects]]
+  name = "github.com/labstack/gommon"
+  packages = ["color","log"]
+  revision = "588f4e8bddc6cb45c27b448e925c7fd6a5545434"
+  version = "0.2.5"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/matoous/go-nanoid"
+  packages = ["."]
+  revision = "958d370425a1ea42a4dd3c67d15bf02554a16b82"
+
+[[projects]]
+  name = "github.com/mattn/go-colorable"
+  packages = ["."]
+  revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
+  version = "v0.0.9"
+
+[[projects]]
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
+  version = "v0.0.3"
+
+[[projects]]
   name = "github.com/technoweenie/multipartstreamer"
   packages = ["."]
   revision = "a90a01d73ae432e2611d178c18367fbaa13e0154"
   version = "v1.0.1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/bytebufferpool"
+  packages = ["."]
+  revision = "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/fasttemplate"
+  packages = ["."]
+  revision = "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
 
 [[projects]]
   branch = "master"
@@ -34,6 +70,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "35fd1251f6aeda7f684bb4bbeea6ba9fd35050dc6bd9098552899bf87aa1fd3d"
+  inputs-digest = "eb2cbdd3678de25daf14c63245eec60ad8ce39dd0704b72f9212e3bee181f3ea"
   solver-name = "gps-cdcl"
   solver-version = 1
